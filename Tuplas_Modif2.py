@@ -8,6 +8,7 @@
 #   la lista se convierte en la nueva tupla TD2.
 
 print ("1.- Generar la tupla TD con cuatro datos:")
+print ("10, 20, 30, 40")
 TD = (10, 20, 30, 40)
 print ("La tupla TD tiene 4 datos")
 
@@ -16,13 +17,13 @@ print ("\n2.- Preguntar cual de los cuatro datos se quiere modificar y pedir el 
 Num = int(input("Dato a modificar: 1, 2, 3, 4: "))
 val = input("Nuevo valor = ")
 if Num == 1:
-    d1 = val
+    d1 = int(val)
 elif Num == 2:
-    d2 = val
+    d2 = int(val)
 elif Num == 3:
     d3 = int(val)
 else:
-    d4 = val
+    d4 = int(val)
     
 print ("\n3.- Con append() agregar cada dato de la tupla TD a la lista que debe empezar vacia")
 L = []          #Lista vacia
